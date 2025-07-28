@@ -37,7 +37,7 @@ The dataset should be structured like this:
 
 <img width="2816" height="1536" alt="Gemini_Generated_Image_st5j9vst5j9vst5j" src="https://github.com/user-attachments/assets/e6f1f916-693c-44b8-9de8-b4c7d9f2e977" />
 
-
+```
 dataset/
 └── Project/
 ├── train/
@@ -48,7 +48,7 @@ dataset/
 ├── cats/
 ├── dogs/
 └── panda/
-
+```
 
 > 📌 **Important:**  
 > The notebook assumes the dataset path is `/content/drive/My Drive/dataset/Project` (for Google Colab).  
@@ -76,7 +76,7 @@ Input images are resized to **224×224**. After the conv and pooling layers, the
 
 ```bash
 jupyter notebook cnn.ipynb
-
+```
 3. Run each cell step by step:
 
 Mount Google Drive (if using Colab)
